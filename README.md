@@ -208,4 +208,227 @@ Historial
 -extensión 
 
 
+## proyecto 6
+
+
+
+## proyecto 7
+
+7.sistema de reproducción de música 
+
+Nivel: intermedio-avanzado
+
+Estructura: lista doblemente enlazada y lista circular.
+
+Crear un reproductor musical simulado.
+
+//Funciones:
+
+Agregar canción 
+
+Eliminar canción 
+
+Buscar canción
+
+Reproducir
+
+Siguiente 
+
+Anterior
+
+Pausar 
+
+Mostrar playlist 
+
+Crear playlist
+
+Reproducción circular
+
+lista doble
+
+Cancion A»« cancion B»«canción C»«cancion D
+
+
+## proyecto 8
+
+8. Sistema de atención de un banco
+
+Nivel: Avanzado
+
+Estructuras: Cola, cola circular y cola de prioridad.
+
+Desarrollar un simulador de atención bancaria.
+
+Tipos de clientes
+
+* Cliente normal
+
+* Cliente preferente
+
+* Adulto mayor
+
+* Persona con prioridad
+
+Funciones
+
+* Generar turno.
+
+* Atender cliente.
+
+* Cancelar turno.
+
+* Mostrar clientes esperando.
+
+* Mostrar clientes atendidos.
+
+* Asignar prioridad.
+
+* Mostrar tiempo estimado.
+
+* Mostrar número de clientes en espera.
+
+Ejemplo
+
+TURNOS
+
+* A001 → Cliente normal
+
+* A002 → Cliente normal
+
+* P001 → Cliente preferente
+
+* A003 → Cliente normal
+
+La cola de prioridad deberá permitir que el sistema atienda primero a los clientes que correspondan.
+
+
+## proyecto 9
+
+
+9. Sistema de control de procesos de un sistema operativo
+
+Nivel: Avanzado
+
+Estructuras: Cola, cola circular y lista enlazada.
+
+Este proyecto permite relacionar **Estructuras de Datos con Sistemas Operativos**, algo que el propio programa de la asignatura recomienda al señalar que los sistemas operativos requieren estructuras de datos para manejar diferentes procesos.
+**Cada proceso tendrá:**
+
+PID
+Nombre
+Prioridad
+Estado
+Tiempo de ejecución
+
+**Estados**
+NUEVO
+LISTO
+EJECUTANDO
+BLOQUEADO
+TERMINADO
+**Funciones**
+
+
+* Crear proceso.
+
+
+* Eliminar proceso.
+
+
+* Ejecutar proceso.
+
+
+* Bloquear proceso.
+
+
+* Desbloquear proceso.
+
+
+* Mostrar procesos.
+
+
+* Buscar proceso.
+
+
+* Administrar cola de procesos.
+**Ejemplo**
+COLA DE PROCESOS
+
+
+
+P01 → P02 → P03 → P04
+El proyecto puede posteriormente ampliarse con algoritmos de planificación.
+
+
+## proyecto 10
+
+10\. Sistema de gestión de pedidos de una tienda en línea
+
+Nivel: Avanzado / Proyecto integrador
+
+Este sería mi proyecto recomendado para cerrar la Unidad 3.
+
+El estudiante desarrollará un sistema que administre pedidos utilizando diferentes estructuras lineales.
+
+// Estructuras
+
+Lista enlazada
+
+\- Productos.
+
+Cola
+
+\- Pedidos pendientes.
+
+Cola de prioridad
+
+\- Pedidos urgentes.
+
+Pila
+
+\- Historial de operaciones.
+
+//Producto
+
+* ID
+
+* Nombre
+
+* Precio
+
+* Existencias
+
+* Categoría
+
+//Pedido
+
+* Número
+
+* Cliente
+
+* Fecha
+
+* Productos
+
+* Total
+
+* Prioridad
+
+* Estado
+
+
+//Funciones principales
+
+* Registrar producto.
+
+* Buscar producto.
+
+* Eliminar producto.
+
+* Registrar pedido.
+
+* Cancelar pedido.
+
+* Procesar pedido.
+
 
