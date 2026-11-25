@@ -210,6 +210,51 @@ Historial
 
 ## proyecto 6
 
+Sistema de administración de tareas 
+nivel: intermedio 
+Estructuras: lista simplemente enlazada y lista doblemente enlazada.
+Desarollar un administrador de tareas similar a una aplicación de productividad 
+Cada tarea tendrá:
+
+-Id
+
+-descripcion
+
+-Prioridad
+
+-Fecha
+
+-Estado
+
+-Responsable
+
+//Funciones:
+
+-Agregar tarea
+
+-Eliminar tarea
+
+-Buscar tarea
+
+-Modificar tarea
+
+-Marcar como terminada
+
+-Mostrar tareas pendientes
+
+-Mostrar tareas terminadas
+
+-Ordenar tareas
+
+-Recorrer lista hacia adelante
+
+-Recorrer lista hacia atrás
+
+-Aplicación de lista doble
+
+
+El estudiante deberá implementar los nodos y sus referencias.
+
 
 
 ## proyecto 7
